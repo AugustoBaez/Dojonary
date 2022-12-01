@@ -26,6 +26,9 @@ nav button {
     color: white;
     width: 60px;
 }
+button {
+    box-shadow: 2px 2px black;
+}
 nav input {
     width: 50%;
 }
@@ -63,6 +66,7 @@ nav input {
     padding: 5%;
     width: 70px;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 .palabra {
     text-align: center;
@@ -70,6 +74,9 @@ nav input {
 
 h4 {
     align-self: center;
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
