@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0 10% 0 10%;
+    justify-content: center;
+    width: 70%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    height: 30px;
+    background-color: grey;
+    padding: 2%;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+nav button {
+    background-color: blue;
+    color: white;
+    width: 60px;
+}
+nav input {
+    width: 50%;
+}
+
+.post, input, .defined {
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.post {
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+.defined {
+    width: 200px;
+}
+#posteos{
+    display:grid;
+    gap: 10px;
+}
+.post, .defined {
+    padding: 3%;
+}
+.post button {
+    background-color: yellow;
+    padding: 5%;
+    width: 70px;
+    margin-top: 15px;
+}
+.palabra {
+    text-align: center;
+}
+
+h4 {
+    align-self: center;
+}
+
+
