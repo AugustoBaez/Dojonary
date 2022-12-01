@@ -42,15 +42,22 @@ nav input {
     width: 100%;
 }
 .defined {
-    width: 200px;
+    height: 200px;
+    width: 40%;
+    text-align: center;
+}
+.defined button{
+    background-color: green;
+    width: 80%;
+    height: 35px;
+    justify-content: center;
+    margin-top: 25px;
 }
 #posteos{
     display:grid;
     gap: 10px;
 }
-.post, .defined {
-    padding: 3%;
-}
+
 .post button {
     background-color: yellow;
     padding: 5%;

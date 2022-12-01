@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>Dojonary</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
-  <title>Dojonary</title>
-</head>
-
-<body>
-  <nav>
-    <h1>Dojonary</h1>
-    <input type="text" placeholder="Search">
-    <button>Login</button>
-  </nav>
-  <div class="container">
-    <div id="posteos">
-      <div class="post">
-        <div class="palabra">
-          <h1>ninja</h1>
-          <b><i>noun</i></b>
-          <p><b>Plural: <i>ninjas</i></b></p>
-          <button>13 likes</button>
+  <body>
+    <nav>
+      <h1>Dojonary</h1>
+      <input type="text" placeholder="Search" />
+      <button onclick="loginButton(this)">Login</button>
+    </nav>
+    <div class="container">
+      <div id="posteos">
+        <div class="post">
+          <div class="palabra">
+            <h1>ninja</h1>
+            <b><i>noun</i></b>
+            <p>
+              <b>Plural: <i>ninjas</i></b>
+            </p>
+            <button onclick="alert('Ninja was liked')">13 likes</button>
+          </div>
+          <h4>
+            A practitioner skilled in the <a href="">Japanese</a> art of
+            <a href="">ninjutsu</a>
+          </h4>
         </div>
-        <h4>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></h4>
+        <div class="post">
+          <div class="palabra">
+            <h1>ninja</h1>
+            <b><i>noun</i></b>
+            <p>
+              <b>Plural: <i>ninjas</i></b>
+            </p>
+            <button onclick="alert('Ninja was liked')">37 likes</button>
+          </div>
+          <h4>
+            A <a href="">programmer</a> who breaks down problems with
+            <a href="">zen</a>-like focus
+          </h4>
+        </div>
       </div>
-      <div class="post">
-        <div class="palabra">
-          <h1>ninja</h1>
-          <b><i>noun</i></b>
-          <p><b>Plural: <i>ninjas</i></b></p>
-          <button>37 likes</button>
-        </div>
-        <h4>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</h4>
+      <div class="defined">
+        <h1>Dojonary is defined by YOU</h1>
+        <button onclick="esconder(this)">Add Definition</button>
       </div>
     </div>
-    <div class="defined">
-      <h1>Dojonary is defined by YOU</h1>
-      <button>Add Definition</button>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
