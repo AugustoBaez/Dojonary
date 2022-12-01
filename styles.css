@@ -45,8 +45,9 @@ nav input {
     width: 100%;
 }
 .defined {
-    height: 200px;
-    width: 40%;
+    height: 150px;
+    padding: 3%;
+    width: 200px;
     text-align: center;
 }
 .defined button{
@@ -70,6 +71,7 @@ nav input {
 }
 .palabra {
     text-align: center;
+    margin-left: 5px;
 }
 
 h4 {
